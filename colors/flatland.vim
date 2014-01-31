@@ -10,6 +10,8 @@ endif
 
 let g:colors_name = "flatland"
 
+let g:airline_theme = "jellybeans"
+
 hi Cursor ctermfg=16 ctermbg=59 cterm=NONE guifg=#26292c guibg=#646769 gui=NONE
 hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#515559 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
