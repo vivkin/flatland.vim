@@ -112,3 +112,5 @@ hi! link cFormat Identifier
 hi! link cOperator Constant
 hi! link cString Constant
 hi! link cSpecial Constant
+hi! link cLabel cStatement
+hi! link cppAccess cppStorageClass
