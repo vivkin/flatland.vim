@@ -111,6 +111,7 @@ hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi! link cFormat Identifier
 hi! link cOperator Constant
 hi! link cString Constant
+hi! link cppRawString Constant
 hi! link cSpecial Constant
 hi! link cLabel cStatement
 hi! link cppAccess cppStructure
