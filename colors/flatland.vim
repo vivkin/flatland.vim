@@ -2,15 +2,13 @@
 " Converted from Textmate theme PlasticCodeWrap using Coloration v0.3.3 (http://github.com/sickill/coloration)
 
 set background=dark
-highlight clear
+hi clear
 
 if exists("syntax_on")
   syntax reset
 endif
 
 let g:colors_name = "flatland"
-
-let g:airline_theme = "jellybeans"
 
 hi Cursor ctermfg=16 ctermbg=59 cterm=NONE guifg=#26292c guibg=#646769 gui=NONE
 hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#515559 gui=NONE
@@ -108,10 +106,19 @@ hi cssValueLength ctermfg=150 ctermbg=NONE cterm=NONE guifg=#b8d977 guibg=NONE g
 hi cssCommonAttr ctermfg=150 ctermbg=NONE cterm=NONE guifg=#b7d877 guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
-hi! link cFormat Identifier
-hi! link cOperator Constant
-hi! link cString Constant
-hi! link cppRawString Constant
-hi! link cSpecial Constant
-hi! link cLabel cStatement
+hi Cursor ctermfg=16 ctermbg=59 cterm=NONE guifg=#222222 guibg=#555555 gui=NONE
+hi CursorLine guifg=NONE guibg=#2d3033 guisp=#36393c gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
+hi CursorColumn guifg=NONE guibg=#3b3e40 guisp=#3b3e40 gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
+hi LineNr guifg=#515253 guibg=#2c2f31 guisp=#2c2f31 gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
+hi NonText guifg=#2d3033 guibg=#2d3033 guisp=#2d3033 gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
+hi VertSplit guifg=#2d3033 guibg=#2d3033 guisp=#2d3033 gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
+hi String guifg=#9298a1 guibg=NONE guisp=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+hi cFormat ctermfg=221 ctermbg=NONE cterm=NONE guifg=#f1e94b guibg=NONE gui=NONE
+
+hi! link VisualNOS Visual
+hi! link FoldColumn Folded
+hi! link Special Constant
+hi! link Label Statement
 hi! link cppAccess cppStructure
+
+let g:airline_theme = "flatlandia"
