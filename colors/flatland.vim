@@ -107,12 +107,11 @@ hi cssCommonAttr ctermfg=150 ctermbg=NONE cterm=NONE guifg=#b7d877 guibg=NONE gu
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
 hi Cursor ctermfg=16 ctermbg=59 cterm=NONE guifg=#222222 guibg=#555555 gui=NONE
-hi CursorLine guifg=NONE guibg=#2d3033 guisp=#36393c gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
-hi CursorColumn guifg=NONE guibg=#3b3e40 guisp=#3b3e40 gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
-hi LineNr guifg=#515253 guibg=#2c2f31 guisp=#2c2f31 gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
-hi NonText guifg=#2d3033 guibg=#2d3033 guisp=#2d3033 gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
-hi VertSplit guifg=#2d3033 guibg=#2d3033 guisp=#2d3033 gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
-hi String guifg=#9298a1 guibg=NONE guisp=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+hi CursorLine ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#404345 gui=NONE
+hi LineNr guifg=#515253 guibg=#2c2f31 gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
+hi NonText guifg=#2d3033 guibg=#2d3033 gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
+hi VertSplit guifg=#515253 guibg=NONE gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
+hi String guifg=#b0d000 guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
 hi cFormat ctermfg=221 ctermbg=NONE cterm=NONE guifg=#f1e94b guibg=NONE gui=NONE
 
 hi! link VisualNOS Visual
