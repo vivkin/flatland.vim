@@ -119,5 +119,3 @@ hi! link FoldColumn Folded
 hi! link Special Constant
 hi! link Label Statement
 hi! link cppAccess cppStructure
-
-let g:airline_theme = "flatlandia"
